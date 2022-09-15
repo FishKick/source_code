@@ -8,7 +8,7 @@ int main(){
 //	string a = "hop";
 //	string b = "duc";
 //	string c = a + " " + b;
-//	cout << c;
+//	cout << c; // "hop duc"
 //	so sánh 2 xâu theo thứ tự từ điển 
 	string a = "";
 	string b = "!!";
