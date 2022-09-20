@@ -50,10 +50,14 @@ int main(){
 	set<int, greater<int>> s2(s1.begin(), s1.end());
 	
 	for (auto itr = s2.begin(); itr != s2.end(); itr++){
-		cout << *it << ' ';
+		cout << *itr << ' '; // 300 200 100
 	}
-	
+
 // hàm erase xóa những phần tử trong mảng set
+	s2.erase(s2.begin(), s2.find(200));
+	cout << s2.erase(300) << endl;
+	for (auto& x : s2) cout << x << ' ';
+	
 	
 	
 	
