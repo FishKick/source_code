@@ -57,6 +57,7 @@ int main(){
 	tie(ch_val, ignore, f_val) = tup3;
 	cout << ch_val << ' ' << f_val; //'c' 2.5
 	cout << endl;
+//      Nối 2 tuple lại dùng hàm tuple_cat
 	auto tup4 = tuple_cat(tup2, tup3);
 	cout << get<0>(tup4) << " " << get<1>(tup4) << " " << get<2>(tup4) << " " << get<3>(tup4);
 	cout << " " << get<4>(tup4) << " " << get<5>(tup4) << endl;
