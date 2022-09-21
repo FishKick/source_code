@@ -54,10 +54,10 @@ int main(){
 
 	// dùng iterator cũng được cho nhanh
 	for (auto it : mp)
-	cout << it.first /* it->first */<<' ' << it.second/* it->second */ << endl;
+	cout << it.first /* it->first */<<' ' << it.second /* it->second */ << endl;
 	// cách dùng sơ khai của iterator
-	for (map <int, int> ::iterator it = mp.begin(); it != mp.end(); it++){
-		cout << (*it).first << " " << (*it).second << endl; 
+	for (map <int, int>::iterator it = mp.begin(); it != mp.end(); it++){
+		cout << (*it).first /* it->first */ << " " << (*it).second /* it->second */ << endl; 
 	}
 //	tìm kiếm phần tử ở trong map(only key_search)
 //	dùng hàm count(key)
