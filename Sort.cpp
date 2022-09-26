@@ -5,6 +5,7 @@
 using namespace std;
 
 // cài đăt thuật toán selection Sort
+// SYNTAX : sort (x.begin(), x.end());
 
 void selectionSort(int a[], int n){
 	for (int i = 0; i < n-1; i++){
